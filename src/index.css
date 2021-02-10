@@ -1,0 +1,56 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+#hour {
+    color: #fff;
+    font-size: 25px;
+
+}
+
+#buttons {
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+#turn-on-off-lights-button{
+    width: 100px;
+    background-color: #232129;
+    border: 0;
+    padding: 8px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#turn-on-off-lights-button:hover{
+    background-color: #383838;
+}
+
+#building {
+    width: 470px;
+    height: 100%;
+    max-height: 70vh;
+    padding: 16px;
+    background-color: rgb(122, 122, 122);
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    
+    border: 2px solid #000;
+}
+
+.lights-off {
+    background-color: #000;
+}
+
+.lights-on {
+    background-color: #ff3;
+}

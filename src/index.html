@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aftersale Challenge</title>
+    <link rel="stylesheet" href="/src/index.css">
+</head>
+
+<body onload="carregar()" style="margin-top: 0; margin-left: 0; margin-bottom: 0; margin-right: 0;">
+    <div id="container">
+        <p id=hour></p>
+
+        <div id="buttons">
+            <input type="button" value="Ligar luzes" id="turn-on-off-lights-button" onclick="turnLightsOn()">
+            <input type="button" value="Apagar Luzes" id="turn-on-off-lights-button" onclick="turnLightsOff()">
+        </div>
+
+        <div id="building">
+
+            <div class="lights-off" id="window_one" onclick="turnLightsOnAndOff('window_one')"></div>
+            <div class="lights-off" id="window_two" onclick="turnLightsOnAndOff('window_two')"></div>
+            <div class="lights-off" id="window_three" onclick="turnLightsOnAndOff('window_three')"></div>
+            <div class="lights-off" id="window_four" onclick="turnLightsOnAndOff('window_four')"></div>
+
+            <div class="lights-off" id="window_five" onclick="turnLightsOnAndOff('window_five')"></div>
+            <div class="lights-off" id="window_six" onclick="turnLightsOnAndOff('window_six')"></div>
+            <div class="lights-off" id="window_seven" onclick="turnLightsOnAndOff('window_seven')"></div>
+            <div class="lights-off" id="window_eight" onclick="turnLightsOnAndOff('window_eight')"></div>
+
+            <div class="lights-off" id="window_nine" onclick="turnLightsOnAndOff('window_nine')"></div>
+            <div class="lights-off" id="window_ten" onclick="turnLightsOnAndOff('window_ten')"></div>
+            <div class="lights-off" id="window_eleven" onclick="turnLightsOnAndOff('window_eleven')"></div>
+            <div class="lights-off" id="window_twelve" onclick="turnLightsOnAndOff('window_twelve')"></div>
+
+        </div>
+    </div>
+
+</body>
+<script src="/src/index.js"></script>
+
+</html>
